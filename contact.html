@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form example</title>
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+    <h1>Greetings! Contact us</h1>
+    <form action="index.html">
+        <div class="form-container">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Enter your first name"><br>
+        <label for="lname">Second Name:</label>
+        <label for="email">Email Adress:</label>
+        <input type="email" id="email" name="email address" placeholder="Enter your email address"><br>
+        <label for="country"> Select Country:</label>
+        <select name="country" id="country">
+            <option value="Sudan">Sudan</option>
+            <option value="Sudan">Kenya</option>
+            <option value="Sudan">Uganda</option>
+            <option value="Sudan">Other</option>
+        </select><br>
+      <h3>Select your Gender:</h3>
+        <label for="Male">Male:</label>
+        <input type="radio" name="gender" id="Male" value="gender"><br>
+        <label for="Female">Female:</label>
+        <input type="radio" name="gender" id="Female" value="gender"><br>
+        <label for="other">Other:</label>
+        <input type="radio" name="gender" id="other" value="gender"><br>
+        <label for="message"> Subject:</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="
+        Enter your message"></textarea><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </div>
+    </form>
+</body>
+</html>
+
